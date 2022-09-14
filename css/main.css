@@ -98,3 +98,15 @@ div {
   margin-top: 10px;
   margin-left: 10px;
 }
+
+.section-4 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.section-4 div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
