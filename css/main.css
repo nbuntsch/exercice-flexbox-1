@@ -45,3 +45,79 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+div {
+  color: white;
+  font-size: 22px;
+}
+
+.section {
+  background-color: #2a9d8f;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.box {
+  background-color: #264653;
+  padding: 20px;
+  /* margin-top: 10px; */
+}
+
+.section-1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.section-1 div {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+}
+
+.section-2 div {
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.section-3 {
+  display: flex;
+  flex-direction: column-reverse;
+  padding-bottom: 10px;
+}
+
+.section-3 div {
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.section-4 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.section-4 div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.section-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.section-5 div {
+  margin-bottom: 10px;
+}
