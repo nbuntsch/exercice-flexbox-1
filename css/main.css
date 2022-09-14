@@ -45,3 +45,48 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+div.section {
+  background-color: var(--green);
+  margin: 40px;
+  padding: 10px;
+}
+
+div.section .box {
+  background-color: var(--dark-blue);
+  padding: 40px;
+  margin: 10px 10px;
+  color: var(--white);
+  font-size: 42px;
+  line-height: 50px;
+}
+
+div.section-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+div.section-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+div.section-3 {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+div.section-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div.section-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
