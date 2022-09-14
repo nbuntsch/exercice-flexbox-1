@@ -89,7 +89,8 @@ div {
 
 .section-3 {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
+  padding-bottom: 10px;
 }
 
 .section-3 div {
