@@ -110,3 +110,14 @@ div {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.section-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.section-5 div {
+  margin-bottom: 10px;
+}
