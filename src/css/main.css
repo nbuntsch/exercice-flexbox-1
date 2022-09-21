@@ -42,3 +42,33 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+body {
+  width: 1728;
+}
+
+p {
+  color: white;
+  font-size: 42px;
+  font-family: "Playfair Display";
+  font-weight: 700;
+  line-height: 50%;
+  padding: 40px;
+}
+
+.section-1,
+.section-2,
+.section-3,
+.section-4,
+.section-5 {
+  background-color: #2a9d8f;
+}
+
+.bloc-1,
+.bloc-2,
+.bloc-3,
+.bloc-4,
+.bloc-5 {
+  background-color: #264653;
+  margin: 20px;
+}
