@@ -80,3 +80,8 @@ p {
   flex-direction: row;
   justify-content: flex-start;
 }
+
+.section-2 {
+  flex-direction: row;
+  justify-content: flex-end;
+}
