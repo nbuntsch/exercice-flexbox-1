@@ -80,9 +80,3 @@ p {
   flex-direction: row;
   justify-content: flex-start;
 }
-
-.section-1 .bloc-1 {
-  flex-grow: 4;
-}
-
-.section-1;
