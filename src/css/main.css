@@ -3,9 +3,6 @@
 // ==================================== */
 
 :root {
-  --dark-blue: #264653;
-  --green: #2a9d8f;
-  --white: #ffefef;
 }
 
 /* ====================================
@@ -28,7 +25,7 @@ body {
   text-rendering: optimizeLegibility;
 
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 1.25;
 }
 
 a {
