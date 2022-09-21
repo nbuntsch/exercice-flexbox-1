@@ -62,6 +62,10 @@ p {
 .section-4,
 .section-5 {
   background-color: #2a9d8f;
+  margin: 40px;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .bloc-1,
@@ -70,5 +74,15 @@ p {
 .bloc-4,
 .bloc-5 {
   background-color: #264653;
-  margin: 20px;
 }
+
+.section-1 {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.section-1 .bloc-1 {
+  flex-grow: 4;
+}
+
+.section-1;
