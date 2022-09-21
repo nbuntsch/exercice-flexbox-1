@@ -85,3 +85,8 @@ p {
   flex-direction: row;
   justify-content: flex-end;
 }
+
+.section-3 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
